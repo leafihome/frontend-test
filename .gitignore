@@ -1,4 +1,5 @@
 node_modules
 .idea
-data/db
+data/db/*
+!data/db/.gitignore
 package-lock.json
