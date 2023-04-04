@@ -22,27 +22,17 @@ We have two utility methods to create some test data for you, accessible via HTT
 - [Create test companies](http://localhost:3001/swagger/index.html#!/Companies/get_importCompanies)
 - [Import people for a given company](http://localhost:3001/swagger/#!/People/get_importPeopleForCompany_companyId)
 
-#### To install all dependencies
-`npm install`
 
-#### Runs the server
+### Environment Setup
+node 14 & MongoDB Community Server 5.0.
 
-Make sure mongoDB@5.0 is running before start the server
+#### Using NVM to install node 14 https://github.com/nvm-sh/nvm
 
-`npm run server`
-
-### API Doc
-http://localhost:3001/swagger
-
-### Pre server reqs
-Install node 14 & MongoDB Community Server 5.0.
-
-#### On macOS
+#### How to install MongoDB Community Server 5.0. On macOS
 ```
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew doctor #fix all issues
 brew update
-brew install node@14
 brew tap mongodb/brew
 brew install mongodb-community@5.0
 brew services start mongodb/brew/mongodb-community@5.0
@@ -61,5 +51,17 @@ source ~/.zshrc
 ```
 mkdir -p ./data/db
 ```
+
+#### To install all dependencies
+`npm install`
+
+#### Runs the server
+
+Make sure mongoDB@5.0 is running before start the server
+
+`npm run server`
+
+### API Doc
+http://localhost:3001/swagger
 
 
