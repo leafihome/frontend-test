@@ -1,18 +1,16 @@
 # Leafi Home Front end programming test
 
-## Expected Functionality:
-- A page to show a list of companies `/companies`
-- A page to show the details/full record of an existing company `/companies/id`
+Choose your favorite frontend frontend framework (React, Vue.js, Angular etc) to build multiple pages website contains the following Functionalities. All the APIs are pre-built and availble in the API test server.
+
 - a page to create a new company `/companies/create`
-- a page to show a list of people who work at a given company `/companies/{id}/people`
-- A page to show the details for a specific person `/people/{person_id}`
-- A page to create a new person, associating them to an existing company `/people/create`
+- A page to show a list of companies `/companies`
+- A page to show the details/full record of an existing company `/companies/{id}`
+- A page to create a new employee, associating them to an existing company `/employees/create`
+- a page to show a list of people who work at a given company `/companies/{id}`
 
 ## Bonus Functionality
 - Edit an existing company's record `/companies/{id}`
-- Edit a person's record `/people/{person_id}`
-- Delete a person record `/people/{person_id}`
-- Make the site responsive
+- Be able to delete an employee record
 - Using State Management Libraries like Redux
 
 ## API test server
